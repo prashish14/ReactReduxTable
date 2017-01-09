@@ -10,7 +10,7 @@ import seedData from './data/seed.js'
 import App from './App';
 import './index.css';
 
-const store = configureStore({list: seedData()})
+const store = configureStore({list: seedData(), displayLength: 10, filter: 'none'})
 
 
 ReactDOM.render(

@@ -4,9 +4,10 @@ export default function seedData(){
   let seedArray = new Array(100)
   casual.define('user', function(){
     return {
+      id: (casual.integer(0, 100000) + casual.unix_time),
       name: casual.full_name,
       email: casual.email,
-      signUpData: casual.date('YYYY-MM-DD'),
+      signUpDate: casual.date('YYYY-MM-DD'),
       motto: casual.catch_phrase
     }
   })
