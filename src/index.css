@@ -13,6 +13,6 @@ table, th, tr, td {
 }
 th {
   height: 40px;
-  background: linear-gradient(to top, rgb(130, 43, 107), rgb(187, 42, 79));
+  background: linear-gradient(to top, rgb(83, 87, 94), rgb(121, 123, 127));
   color: white;
 }
