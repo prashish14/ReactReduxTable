@@ -55,10 +55,10 @@ export default class TableOutline extends Component{
       <table>
         <thead>
           <tr onClick={this.updateFilter}>
-            <th id='name'>Name</th>
-            <th id='email'>Email</th>
-            <th id='signUpDate'>Sign Up Date</th>
-            <th id='motto'>Motto</th>
+            <th id='Mac Address'>Mac Address</th>
+            <th id='email'>Network Device</th>
+            <th id='signUpDate'>Network Name</th>
+            <th id='motto'>IP Device</th>
           </tr>
         </thead>
         <tbody>

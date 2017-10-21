@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Welcome to React</h2>
+          <h2>Group Table</h2>
         </div>
         <div>
           <TableOutline displayList={this.props.list.slice(0, this.props.displayLength)}
